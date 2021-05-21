@@ -142,7 +142,6 @@ def fill_rows(base_ws, row, max_col, work_hour_start_days, work_hours_max):
                     value = work_hours_max
                 base_ws[work_hours_cell] = value
                 base_ws[overtime_cell] = overtime
-                value = int(value)
                 base_ws[work_start_cell] = hour_representation_formula(
                     work_start)
                 base_ws[work_end_cell] = hour_representation_formula(
