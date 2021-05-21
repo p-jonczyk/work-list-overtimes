@@ -46,5 +46,4 @@ BOTH FILES HAVE TO HAVE THE SAME FILENAME AS ABOVE
 
 SOURCE FILE
 > Hours entered in source file ('your_source_file_name.xlsx') have to be in number format
-i.e. if employee worked 10.5h then '10.5' should be in proper cell
 Any different format will be not considerd in sum of worked hours\n\n"""
